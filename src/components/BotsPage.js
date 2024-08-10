@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import YourBotArmy from "./YourBotArmy";
 import BotCollection from "./BotCollection";
 
-const API = 'http://localhost:8001/bots';
+const API = 'http://localhost:8002/bots';
 
 function BotsPage() {
   const [bots, setBots] = useState([]);
