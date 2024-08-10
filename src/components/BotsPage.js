@@ -15,7 +15,7 @@ function BotsPage() {
     
   }
   function dischargeBot(dischargedBot) {
-    setBots(bot.filter(bot => bot.id !== dischargedBot.id))
+    setBots(bots.filter(bot => bot.id !== dischargedBot.id))
   }
   return (
     <div>
